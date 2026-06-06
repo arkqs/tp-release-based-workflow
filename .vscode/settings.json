@@ -1,10 +1,25 @@
 {
   "workbench.colorCustomizations": {
-    // Couleur de fond de la barre de statut (ex: un bleu-gris discret)
+    // --- BARRE DE STATUT (Bas) ---
     "statusBar.background": "#2e3c4d",
-    // Couleur du texte/icônes de la barre de statut
     "statusBar.foreground": "#e1e4e8",
-    // Optionnel : change aussi la couleur si le dossier est ouvert à distance/Dev Container
-    "statusBar.debuggingBackground": "#38485a"
+    "statusBarRemote.background": "#2e3c4d", 
+    "statusBarRemote.foreground": "#e1e4e8",
+
+// --- BARRE DE TITRE / MENU (Haut) ---
+    "titleBar.activeBackground": "#f3f4f6", // Gris très clair
+    "titleBar.activeForeground": "#000000", // Texte noir
+    "titleBar.inactiveBackground": "#f9fafb",
+    "titleBar.inactiveForeground": "#6b7280",
+
+    // --- BARRE LATÉRALE / EXPLORATEUR (Droite ou Gauche) ---
+    "sideBar.background": "#f9fafb",       // Fond blanc cassé / gris subtil
+    "sideBar.foreground": "#000000",       // Noms des fichiers en noir
+    "sideBar.border": "#e5e7eb",           // Ligne de séparation discrète
+
+    // --- BARRE D'ACTIVITÉ (Bande étroite avec les icônes) ---
+    "activityBar.background": "#e5e7eb",   // Gris un poil plus soutenu pour la structure
+    "activityBar.foreground": "#000000",   // Icônes actives en noir
+    "activityBar.inactiveForeground": "#6b7280", // Icônes secondaires
   }
 }
