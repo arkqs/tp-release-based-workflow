@@ -9,4 +9,10 @@ All notable changes to this project will be documented in this file.
 - Intégration Prisma avec PostgreSQL.
 - Module Tasks (CRUD complet).
 - Documentation Swagger.
-- Support DevContainer.
+- Support DevContainer.$
+
+## [1.0.1] - 2026-06-10
+
+### Hotfix
+
+- Test
